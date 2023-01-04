@@ -1,0 +1,28 @@
+
+h3
+ {
+    font-size: 28px !important;
+ }
+
+.button-success:hover
+{
+    background-color: rgb(184, 89, 238);
+}
+
+  canvas {
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes example {
+
+    from {box-shadow: 1px 1px 38px rgb(176, 228, 115);}
+    to {box-shadow: 1px 1px 38px rgb(19, 142, 243);}
+}
+
+.copy_right_footer
+ {
+    background-color: lightcyan;
+    font-weight: bolder;
+ }
